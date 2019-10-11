@@ -1306,7 +1306,9 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
+		/* background-image: url("images/overlay.png"), url("images/black-wallpaper-22.jpg");
+		*/
+		background-color: rgb(15, 20, 20);
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
@@ -1947,7 +1949,8 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		width: 100%;
-		background: #ffffff;
+		background-image: url("images/knight_atorias_by_oldhat104-d5onphc.png");
+		background-size: cover;
 		box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
 		-moz-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
 		-webkit-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
