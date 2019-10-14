@@ -201,6 +201,7 @@ input, select, textarea {
 
 		.row > .col-12 {
 			width: 100%;
+			
 		}
 
 		.row > .off-12 {
@@ -1498,19 +1499,19 @@ input, select, textarea {
 	}
 
 	form ::-webkit-input-placeholder {
-		color: rgb(10, 10, 10);
+		color: rgb(200, 200, 200);
 	}
 
 	form :-moz-placeholder {
-		color: rgb(10, 10, 10);
+		color: rgb(200, 200, 200);
 	}
 
 	form ::-moz-placeholder {
-		color: rgb(10, 10, 10);
+		color: rgb(200, 200, 200);
 	}
 
 	form :-ms-input-placeholder {
-		color: rgb(10, 10, 10);
+		color: rgb(200, 200, 200);
 	}
 
 /* Section/Article */
@@ -1590,9 +1591,10 @@ input, select, textarea {
 		transition: background-color .25s ease-in-out;
 		-webkit-appearance: none;
 		display: inline-block;
-		background-color: #222222;
-		color: #ffffff;
-		border: 0;
+		background-color: rgb(15, 20, 20);
+		color: #c8c8c8;
+		border: 1;
+		border-color: rgb(160, 160, 160);
 		cursor: pointer;
 		outline: 0;
 		padding: 0.7em 1.5em 0.7em 1.5em;
@@ -1950,6 +1952,7 @@ input, select, textarea {
 		-webkit-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
 		-ms-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
 		transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
+		border: 2px solid rgb(90, 90, 90); /*Main Border Color*/
 	}
 
 		#main > .panel {
