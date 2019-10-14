@@ -1301,9 +1301,9 @@ input, select, textarea {
 	}
 
 	body {
-		/* background-image: url("images/overlay.png"), url("images/black-wallpaper-22.jpg");
-		*/
-		background-color: rgb(15, 20, 20);
+		background-image: url("images/overly.png"), url("images/portal2creditsbw.png");
+		
+		/* background-color: rgb(15, 20, 20); */
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
