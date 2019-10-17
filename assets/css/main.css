@@ -23,6 +23,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
 body {
 	line-height: 1;
 }
@@ -201,7 +202,6 @@ input, select, textarea {
 
 		.row > .col-12 {
 			width: 100%;
-			
 		}
 
 		.row > .off-12 {
@@ -1301,7 +1301,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overly.png"), url("images/portal2creditsbw.png");
+		background-image: url("images/overly.png"), url("images/rainbw2.gif");
 		
 		/* background-color: rgb(15, 20, 20); */
 		background-repeat: repeat, no-repeat;
@@ -2015,7 +2015,7 @@ input, select, textarea {
 						position: absolute;
 						top: 0;
 						left: 0;
-						background: url("images/overlay.png");
+						background: url("images/po.png");
 						width: 100%;
 						height: 100%;
 						z-index: 1;
@@ -2039,7 +2039,7 @@ input, select, textarea {
 						object-position: center;
 					}
 
-					#main > .panel.intro .pic .arrow {
+					/* #main > .panel.intro .pic .arrow {
 						display: block;
 						position: absolute;
 						right: 0;
@@ -2052,6 +2052,27 @@ input, select, textarea {
 						color: #ffffff;
 						text-align: center;
 						line-height: 2.75em;
+						font-size: 1.5em;
+						z-index: 1;
+						-moz-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+						-webkit-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+						-ms-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+						transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+					} */
+
+					#main > .panel.intro .pic .arrow {
+						display: block;
+						position: absolute;
+						right: 0;
+						top: 50%;
+						margin-top: -1.375em;
+						width: 1.75em;
+						height: 1.75em;
+						background: #000;
+						background: rgba(0, 0, 0, 0.75);
+						color: #ffffff;
+						text-align: center;
+						line-height: 1.6em;
 						font-size: 1.5em;
 						z-index: 1;
 						-moz-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
@@ -2072,7 +2093,7 @@ input, select, textarea {
 						}
 
 					#main > .panel.intro .pic:hover .arrow {
-						width: 3em;
+						width: 1.9em;
 						padding-right: 0.25em;
 					}
 
@@ -2189,3 +2210,32 @@ input, select, textarea {
 			}
 
 		}
+
+.input-group{
+  display: table;
+  border-collapse: collapse;
+  width:100%;
+}
+.input-group > div{
+  display: table-cell;
+  border: 2px solid rgb(160, 160, 160);
+  vertical-align: middle;  /* needed for Safari */
+}
+.input-group-icon{
+  background:#eee;
+  color: #777;
+  padding: 0 12px
+}
+.input-group-area{
+  width:100%;
+}
+.input-group input{
+  border: 0;
+  display: block;
+  width: 100%;
+}
+.input-group textarea{
+	border: 0;
+	display: block;
+	width: 100%;
+  }
