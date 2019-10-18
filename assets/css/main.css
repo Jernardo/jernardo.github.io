@@ -1325,7 +1325,7 @@ input, select, textarea {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
 		color: #777777;
-		font-size: 20pt;
+		font-size: 22pt;
 		line-height: 1.75em;
 	}
 
@@ -1962,7 +1962,7 @@ input, select, textarea {
 			transition: opacity 0.25s ease-in-out;
 			margin-bottom: 0;
 			position: relative;
-			padding: 3.5em 2.5em 2.5em 2.5em;
+			padding: 2.5em 2.5em 2.5em 2.5em;
 			width: 100%;
 		}
 
@@ -2192,8 +2192,9 @@ input, select, textarea {
 				display: inline-block;
 				padding-left: 1em;
 				margin-left: 1em;
-				border-left: solid 1px rgba(255, 255, 255, 0.25);
+				border-left: solid 2px rgba(255, 255, 255, 0.25);
 				line-height: 1;
+				color: rgba(255, 255, 255, 0.65);
 			}
 
 				#footer .copyright li:first-child {
