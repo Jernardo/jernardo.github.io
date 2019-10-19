@@ -2027,8 +2027,8 @@ input, select, textarea {
 						position: absolute;
 						top: 0;
 						left: 0;
-						width: 100%;
-						height: 100%;
+						width: 95%;
+						height: 95%;
 						-moz-object-fit: cover;
 						-webkit-object-fit: cover;
 						-ms-object-fit: cover;
@@ -2064,7 +2064,7 @@ input, select, textarea {
 						display: block;
 						position: absolute;
 						right: 0;
-						top: 50%;
+						top: 97%;
 						margin-top: -1.375em;
 						width: 1.75em;
 						height: 1.75em;
@@ -2093,8 +2093,8 @@ input, select, textarea {
 						}
 
 					#main > .panel.intro .pic:hover .arrow {
-						width: 1.9em;
-						padding-right: 0.25em;
+						width: 2.4em;
+						padding-right: 0.1em;
 					}
 
 				#main > .panel.intro header {
