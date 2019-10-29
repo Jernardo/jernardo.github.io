@@ -10,29 +10,28 @@
 </head>
 
 <body>
-    <center>
         <h2><a href="http://jernardo.github.io/#other"><span>
-                    Back to other projects</a> | <a href="http://jernardo.github.io/assets/js/todo.js"> todo.js(source code)</span></a></h2>
+                    Back to other projects</a> | <a href="http://jernardo.github.io/assets/js/todo.js">
+                todo.js(source code)</span></a></h2>
         <h1>To-do List</h1>
-        <div>
-            <button onclick="handlers.toggleAll()">Toggle All Completed</button>
-        </div>
-        <div>
+        <div class="btn-group">
+            <button onclick="handlers.toggleAll()">Toggle All To-do</button>
+
             <button onclick="handlers.addTodo()">Add To-do</button>
+
             <input id="addTodoTextInput" type="text">
-        </div>
-        <div>
+
             <button onclick="handlers.changeTodo()">Change To-do</button>
-            <input id="changeTodoPositionInput" type="number">
+
+            <input id="changeTodoPositionInput" type="number" placeholder="0" min="0">
             <input id="changeTodoTextInput" type="text">
-        </div>
-        <div>
-            <button onclick="handlers.toggleCompleted()">Toggle Singular Completed</button>
-            <input id="toggleCompletedPositionInput" type="number">
+
+            <button onclick="handlers.toggleCompleted()">Toggle To-do</button>
+
+            <input id="toggleCompletedPositionInput" type="number" placeholder="0" min="0">
         </div>
         <ul>
         </ul>
-    </center>
     <script src="assets/js/todo.js"></script>
 </body>
 
