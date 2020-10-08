@@ -1,3 +1,3 @@
-# Jernardo Portfolio
+# jernardo
 
-[Jernardo Portfolio](https://jernardo.github.io)
+[jernardo page](https://jernardo.github.io)
