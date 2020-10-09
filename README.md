@@ -1,3 +1,3 @@
 # jernardo
 
-[jernardo.github.io](jernardo.github.io)
+[jernardo.github.io](http://jernardo.github.io)
